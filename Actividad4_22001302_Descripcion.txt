@@ -1,0 +1,29 @@
+Descripción del ejercicio.
+
+Lo que se busca implementar es un programa que pueda generar una cotización de precios para pólizas según los siguientes valores aportado por el cliente:
+
+Edad del asegurado.
+Edad del cónyuge, en los casos que aplique.
+Cantidad de hijos, en los casos que aplique.
+
+Estos datos representan un porcentaje adicional, por lo que el programa deberá calcular los recargos correspondientes sobre el precio base de la póliza, aplicando los siguientes criterios:
+
+Recargo según la edad del asegurado:
+•	De 18 a 24 años, 10% del precio base
+•	De 25 a 49 años, 20% del precio base
+•	Más de 50 años, 30% del precio base
+
+Recargo según edad del cónyuge del asegurado:
+•	De 18 a 24 años, 10% del precio base
+•	De 25 a 49 años, 20% del precio base
+•	Más de 50 años, 30% del precio base
+
+Recargo según cantidad de hijos del asegurado:
+•	Cantidad de hijos por el 20% del precio base
+
+Finalmente, el programa deberá demostrar la suma de los siguientes valores:
+
+Precio base
+Recargo según la edad del asegurado.
+Recargo según la edad del cónyuge, en los casos que aplique.
+Recargo según la cantidad de hijos, en los casos que aplique.

@@ -1,0 +1,24 @@
+Algoritmo de Cotización
+
+
+1. Solicitar edad.
+2. Consultar si el asegurado está casado.
+3. Si el asegurado está casado, consultar la edad del cónyuge.
+4. Si el asegurado no está casado pasar a la siguiente pregunta.
+5. Consultar si el asegurado tiene hijos.
+6. Si el asegurado tiene hijos, consultar la cantidad de hijos que posee.
+7. Si el asegurado no tiene hijos, pasar a la siguiente pregunta.
+8. calcular el “Recargo según la edad del asegurado” con base en lo siguiente:
+•	De 18 a 24 años, 10% del precio base
+•	De 25 a 49 años, 20% del precio base
+•	Más de 50 años, 30% del precio base
+9. Calcular “Recargo según edad del cónyuge del asegurado” con base en lo siguiente:
+•	De 18 a 24 años, 10% del precio base
+•	De 25 a 49 años, 20% del precio base
+•	Más de 50 años, 30% del precio base
+10. Calcular “Recargo según cantidad de hijos del asegurado” con base en lo siguiente:
+•	Cantidad de hijos por el 20% del precio base
+11. Sumar los valores de: “Recargo según la edad del asegurado”, “Recargo según edad del cónyuge del asegurado” y “Recargo según cantidad de hijos del asegurado”.
+12. sumar el total de los recargos más el precio base.
+13. Mostrar total de los recargos.
+14. Mostrar total de los recargos más el precio base.
